@@ -70,7 +70,7 @@ let a = Number(prompt('cuanto te sacaste en la primer nota?'));
 let b = Number(prompt('cuanto te sacaste en la segunda nota?'));
 let c = Number(prompt('cuanto te sacaste en la tercera nota?'));
 
-let promedio = a + b + c / 3;
+let promedio = (a + b + c) / 3;
 
 console.log('Su promedio de las notas es de: ' + promedio);
 

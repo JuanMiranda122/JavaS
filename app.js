@@ -128,19 +128,33 @@
 // }
 
 
-let año = Number(prompt('Cual es tu año de nacimiento?'));
+// let año = Number(prompt('Cual es tu año de nacimiento?'));
 
-let dias = Number(prompt('Cuantos dias tiene el año que ya puso?'))
+// let dias = Number(prompt('Cuantos dias tiene el año que ya puso?'))
 
-if(dias == 366){ 
-    console.log('El año ' + año + '  es bisiesto' )
+// if(dias == 366){ 
+//     console.log('El año ' + año + '  es bisiesto' )
 
-}else if(dias == 365){
-    console.log('El año ' + año + '  no es bisiesto' )
+// }else if(dias == 365){
+//     console.log('El año ' + año + '  no es bisiesto' )
 
-}else{
-    console.log('dato erroneo')
-}
+// }else{
+//     console.log('dato erroneo')
+// }
+
+
+let cuenta = Number(prompt('Cuanto costo la cena en total?'))
+ 
+
+let pc = (prompt('Cual fue la persona que mas comio?'))
+
+let vpagarindividual = cuenta / 4 
+
+let pcv = vpagarindividual * 2 
+ 
+console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpagarindividual);
+
+
 
 
 

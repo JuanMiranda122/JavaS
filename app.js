@@ -1,14 +1,14 @@
 // este comando sirve para mostrar lo que se puede estar haciendo en la consola
-console.log ('date'); //string
-console.log(true); //tipo boleano
-console.log(false); //tipo boleano
-console.log(40); //number
+// console.log ('date'); //string
+// console.log(true); //tipo boleano
+// console.log(false); //tipo boleano
+// console.log(40); //number
 
-//operaciones matematicas
-console.log(12*5)
-console.log(12+5)
-console.log(12-5)
-console.log(12/5)
+// //operaciones matematicas
+// console.log(12*5)
+// console.log(12+5)
+// console.log(12-5)
+// console.log(12/5)
 
 //variables
 // la declaracion y la asiggnacion se manejan con let (nombre de la variable crea la declaracion, = (tipo de dato asigna la variable ))
@@ -77,21 +77,58 @@ console.log(12/5)
 
 // let dias = Number(prompt('Cuantos días han pasado desde que ella se fue?'));
 
-let peso = Number(prompt('Cual es tu peso en  KG (kilogramos) '));
+// let peso = Number(prompt('Cual es tu peso en  KG (kilogramos) '));
 
-let libras = peso * 2.2046;
+// let genero = String(prompt('Cual es tu genero? solo f o m'))
 
-console.log('Tu peso en libras es de: ' + libras);
+// let libras = peso * 2.2046;
 
-if ( libras < 160) {
-    console.log('Debes competir en peso mosca');
-    
-}else if( libras >= 160 & libras <=180 ){
-    console.log('Debes competir en la categoria clase baja');
+// let bajo = 160;
+// let medio = 180;
+// if(genero == 'f'){
+//     bajo = 115;
+//     medio = 135;
+// }
+
+// if(libras <= bajo){
+//     console.log('peso mosca')
+// }else if(libras <= medio){
+//     console.log('peso medio')
+// }else{
+//     console.log('peso sumo')
+// }
+
+
+
+let metodo = String(prompt('Que metodo de preparacion utilizas? especiificar estas tres opciones: francesa, moka y v60'));
+
+
+
+let agua = Number(prompt('Cuantos gramos de cafe le va a agregar?'))
+
+let  francesa = 'francesa'
+
+let  moka = 'moka'
+
+let  v60 = 'v60'
+
+if(metodo = 'francesa'){
+    let mlf = agua * 15
+    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlf)
+
+} else if(metodo = 'moka'){
+    let mlm = agua * 16
+    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlm)
 
 }else{
-    console.log('Tu categoria es sumo');50
+
+    let mlv = agua * 14
+    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlv)
+
 }
+
+
+
 
 
 

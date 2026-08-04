@@ -100,31 +100,46 @@
 
 
 
-let metodo = String(prompt('Que metodo de preparacion utilizas? especiificar estas tres opciones: francesa, moka y v60'));
+// let metodo = String(prompt('Que metodo de preparacion utilizas? especiificar estas tres opciones: francesa, moka y v60'));
 
 
 
-let agua = Number(prompt('Cuantos gramos de cafe le va a agregar?'))
+// let agua = Number(prompt('Cuantos gramos de cafe le va a agregar?'))
 
-let  francesa = 'francesa'
+// let  francesa = 'francesa'
 
-let  moka = 'moka'
+// let  moka = 'moka'
 
-let  v60 = 'v60'
+// let  v60 = 'v60'
 
-if(metodo = 'francesa'){
-    let mlf = agua * 15
-    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlf)
+// if(metodo == 'francesa'){
+//     let mlf = agua * 15
+//     console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlf)
 
-} else if(metodo = 'moka'){
-    let mlm = agua * 16
-    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlm)
+// } else if(metodo == 'moka'){
+//     let mlm = agua * 16
+//     console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlm)
+
+// }else{
+
+//     let mlv = agua * 14
+//     console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlv)
+
+// }
+
+
+let año = Number(prompt('Cual es tu año de nacimiento?'));
+
+let dias = Number(prompt('Cuantos dias tiene el año que ya puso?'))
+
+if(dias == 366){ 
+    console.log('El año ' + año + '  es bisiesto' )
+
+}else if(dias == 365){
+    console.log('El año ' + año + '  no es bisiesto' )
 
 }else{
-
-    let mlv = agua * 14
-    console.log('Los militros de agua que tienes que echarle a tu cafe son: ' + mlv)
-
+    console.log('dato erroneo')
 }
 
 

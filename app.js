@@ -66,13 +66,34 @@ console.log(12/5)
 // console.log('El precio de tu producto con el 20% de descuento es de: ' + descuento);
 
 
-let a = Number(prompt('cuanto te sacaste en la primer nota?'));
-let b = Number(prompt('cuanto te sacaste en la segunda nota?'));
-let c = Number(prompt('cuanto te sacaste en la tercera nota?'));
+// let a = Number(prompt('cuanto te sacaste en la primer nota?'));
+// let b = Number(prompt('cuanto te sacaste en la segunda nota?'));
+// let c = Number(prompt('cuanto te sacaste en la tercera nota?'));
 
-let promedio = (a + b + c) / 3;
+// let promedio = (a + b + c) / 3;
 
-console.log('Su promedio de las notas es de: ' + promedio);
+// console.log('Su promedio de las notas es de: ' + promedio);
+
+
+// let dias = Number(prompt('Cuantos días han pasado desde que ella se fue?'));
+
+let peso = Number(prompt('Cual es tu peso en  KG (kilogramos) '));
+
+let libras = peso * 2.2046;
+
+console.log('Tu peso en libras es de: ' + libras);
+
+if ( libras < 160) {
+    console.log('Debes competir en peso mosca');
+    
+}else if( libras >= 160 & libras <=180 ){
+    console.log('Debes competir en la categoria clase baja');
+
+}else{
+    console.log('Tu categoria es sumo');50
+}
+
+
 
 
 

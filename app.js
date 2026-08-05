@@ -158,18 +158,49 @@
  
 // console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpi);
 
- let num = Number(prompt('Dame cualquier numero entero'));
+//  let vp = Number(prompt('Cuantas veces quieres que se multiplique'))
 
- let vp = Number(prompt('Cuantas veces quieres que se multiplique'))
-
-for(let i = 1; i <= vp; i++){
+// for(let i = 1; i <= vp; i++){
 
     
 
-    let mp = i  * num;
+// //     let mp = i  * num;
 
-    console.log('la tabla del de multiplicacion es ' + mp)
-}
+// //     console.log('la tabla del de multiplicacion es ' + mp)
+// // }
+
+// let num = Number(prompt('Dame cualquier numero entero'));
+
+// for(let i = 0; i = num; i++){
+
+
+// let fact = i * num 
+
+// console.log('el factorial de ' + fact + ' es:')
+
+
+
+
+// }
+
+
+
+
+
+// for(let i= 1; 1 <= 3; i++){
+
+//     let nom = String(prompt('Cual es tu nombre?'))
+
+// let ntf = Number(prompt('Cual es tu nota final'))
+
+//     console.log(nom + 'tu nota final es de: ' + ntf)
+
+//     if(ntf >= 3){
+//         console.log('pasaste')
+//     }else{
+//         console.log('no pasaste')
+//     }
+// }
 
 
 

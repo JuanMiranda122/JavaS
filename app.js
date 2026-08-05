@@ -144,15 +144,19 @@
 
 
 let cuenta = Number(prompt('Cuanto costo la cena en total?'))
- 
+
+let np = Number(prompt('Cuantas personas comieron? '))
+  
 
 let pc = (prompt('Cual fue la persona que mas comio?'))
 
-let vpagarindividual = cuenta / 4 
+let vpagarindividual = cuenta / np 
 
 let pcv = vpagarindividual * 2 
+
+let vpi = pcv / (np-1)
  
-console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpagarindividual);
+console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpi);
 
 
 

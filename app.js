@@ -143,23 +143,31 @@
 // }
 
 
-let cuenta = Number(prompt('Cuanto costo la cena en total?'))
+// let cuenta = Number(prompt('Cuanto costo la cena en total?'))
 
-let np = Number(prompt('Cuantas personas comieron? '))
+// let np = Number(prompt('Cuantas personas comieron? '))
   
 
-let pc = (prompt('Cual fue la persona que mas comio?'))
+// let pc = (prompt('Cual fue la persona que mas comio?'))
 
-let vpagarindividual = cuenta / np 
+// let vpagarindividual = cuenta / np 
 
-let pcv = vpagarindividual * 2 
+// let pcv = vpagarindividual * 2 
 
-let vpi = pcv / (np-1)
+// let vpi = pcv / (np-1)
  
-console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpi);
+// console.log(pc + ' tiene que pagar ' + pcv + ' los demas tienen que pagar  ' + vpi);
 
+ let num = Number(prompt('Dame cualquier numero entero'));
 
+for(let i = 1; i <= 10; i++){
 
+    
+
+    let mp = i  * num
+
+    console.log('la tabla del de multiplicacion es ' + mp)
+}
 
 
 

@@ -160,11 +160,13 @@
 
  let num = Number(prompt('Dame cualquier numero entero'));
 
-for(let i = 1; i <= 10; i++){
+ let vp = Number(prompt('Cuantas veces quieres que se multiplique'))
+
+for(let i = 1; i <= vp; i++){
 
     
 
-    let mp = i  * num
+    let mp = i  * num;
 
     console.log('la tabla del de multiplicacion es ' + mp)
 }

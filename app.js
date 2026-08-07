@@ -230,30 +230,58 @@
 
 
 
-let hashes = ['ljuthdit9', '548347', 'jdjhsktn', '486154', 'hifadshl47', '876416597', 'ñlnpikpew']
+// let hashes = ['ljuthdit9', '548347', 'jdjhsktn', '486154', 'hifadshl47#', '876416597', 'ñlnpikpew']
 
-let seguras = []
-let inseguras = []
+// let seguras = []
+// let media = []
+// let inseguras = []
 
-for (let i = 0; i < hashes.length; i++){
+// for (let i = 0; i < hashes.length; i++){
 
-    let logcon = hashes[i].length;
- 
-    if(logcon >= 8 ){
+//     let logcon = hashes[i].length;
+//     let ce = hashes[i].includes('#')
 
-        seguras.push(hashes[i]);
+//     if(ce && logcon>= 8 ){
+
+//         seguras.push(hashes[i]);
+        
             
+//     }else if(logcon >= 8 ){
+//         media.push(hashes[i]);
+//     }else{
+//         inseguras.push(hashes[i]);
+//     }
+
+// }
+
+// console.log('las contraseñas seguras son: ' + seguras)
+// console.log('las contraseñas medias son: ' + media)
+
+// console.log('las contraseñas iseguras son: ' + inseguras)
+
+
+let numAzar = Math.floor((Math.random() * 10) + 1)
+
+for(let i = 1; i <= 5; i++){
+
+    let num = Number(prompt('ingrese un numero'));
+
+
+
+
+    if( num === numAzar ){
+        console.log('Gano')
+        break
+    
+    }else if(num < numAzar){
+        console.log('Escriba un numero mayor')
+    }else if(num > numAzar){
+        console.log('Escriba un numero menor')
     }else{
-        inseguras.push(hashes[i]);
+        console.log('PERDIO')
     }
 
 }
-
-console.log('las contraseñas seguras son: ' + seguras)
-console.log('las contraseñas iseguras son: ' + inseguras)
-
-
-
 
 
 

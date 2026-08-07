@@ -260,28 +260,76 @@
 // console.log('las contraseñas iseguras son: ' + inseguras)
 
 
-let numAzar = Math.floor((Math.random() * 10) + 1)
+// let numAzar = Math.floor((Math.random() * 10) + 1)
 
-for(let i = 1; i <= 5; i++){
+// for(let i = 1; i <= 5; i++){
 
-    let num = Number(prompt('ingrese un numero'));
-
-
+//     let num = Number(prompt('ingrese un numero'));
 
 
-    if( num === numAzar ){
-        console.log('Gano')
-        break
+
+
+//     if( num === numAzar ){
+//         console.log('Gano')
+//         break
     
-    }else if(num < numAzar){
-        console.log('Escriba un numero mayor')
-    }else if(num > numAzar){
-        console.log('Escriba un numero menor')
-    }else{
-        console.log('PERDIO')
-    }
+//     }else if(num < numAzar){
+//         console.log('Escriba un numero mayor')
+//     }else if(num > numAzar){
+//         console.log('Escriba un numero menor')
+//     }else{
+//         console.log('PERDIO')
+//     }
 
+// }
+
+
+let estudiantes = [
+
+   {
+    nombre: 'Juan',
+    nota: [3, 4.2]
+   },
+
+   
+   {
+    nombre: 'Pola',
+    nota: [5, 3.9]
+   },
+
+   
+   {
+    nombre: 'Lilo',
+    nota: [1, 4.5]
+   }
+
+
+
+
+]
+
+for (let i = 0; i < estudiantes.length; i++) {
+    // console.log('el estudiante es: ' + estudiantes[i].nombre)
+    // console.log('la nota  es: ' + estudiantes[i].nota)
+
+    
+   
+        
+      let promedio = (estudiantes[i].nota[0]+ estudiantes[i].nota[1])/2;
+// console.log(promedio)
+
+if(promedio <= 2.9){
+        console.log('el estudiante ' + estudiantes[i].nombre + ' perdio con: ' + promedio )
+    }else{
+        console.log('el estudiante ' + estudiantes[i].nombre + ' paso con: ' + promedio )
+    }
 }
+
+        
+       
+    
+    
+    
 
 
 

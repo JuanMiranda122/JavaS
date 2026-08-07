@@ -187,20 +187,70 @@
 
 
 
-// for(let i= 1; 1 <= 3; i++){
+// for(let i= 1; i <= 3; i++){
 
 //     let nom = String(prompt('Cual es tu nombre?'))
 
-// let ntf = Number(prompt('Cual es tu nota final'))
+    
 
-//     console.log(nom + 'tu nota final es de: ' + ntf)
+//     for( i=1; i <= 3; i++){
 
-//     if(ntf >= 3){
-//         console.log('pasaste')
-//     }else{
-//         console.log('no pasaste')
-//     }
+//         let notas = [not1, not2, not3]
+
+//         let not1 = Number(prompt('Cual es tu primer nota?'))
+//         let not2 = Number(prompt('Cual es tu segunda nota?'))
+//         let not3 = Number(prompt('Cual es tu tercer nota?'))
+
+//         let promedio = notas / 3
+
+// if(promedio <= 3){
+
+//     console.log('su promedio es de: ' + promedio + ' tiene que nivelar')
+// }else if(promedio >=3 && promedio <= 5){
+//     console.log('su promedio es de: ' + promedio + ' paso bien pelado')
+
+// }else{
+//     console.log('Datos no validos')
 // }
+
+//     }
+
+
+
+
+// }
+
+
+
+// let computadores = ['','',''];
+// //El elemento length sirve para mostrar cuantos elementos tiene una lista 
+// console.log(computadores.length);
+
+// console.log(computadores[computadores.length - 1]);
+
+
+
+let hashes = ['ljuthdit9', '548347', 'jdjhsktn', '486154', 'hifadshl47', '876416597', 'ñlnpikpew']
+
+let seguras = []
+let inseguras = []
+
+for (let i = 0; i < hashes.length; i++){
+
+    let logcon = hashes[i].length;
+ 
+    if(logcon >= 8 ){
+
+        seguras.push(hashes[i]);
+            
+    }else{
+        inseguras.push(hashes[i]);
+    }
+
+}
+
+console.log('las contraseñas seguras son: ' + seguras)
+console.log('las contraseñas iseguras son: ' + inseguras)
 
 
 

@@ -284,50 +284,52 @@
 // }
 
 
-let estudiantes = [
+// let estudiantes = [
 
-   {
-    nombre: 'Juan',
-    nota: [3, 4.2]
-   },
-
-   
-   {
-    nombre: 'Pola',
-    nota: [5, 3.9]
-   },
+//    {
+//     nombre: 'Juan',
+//     nota: [3, 4.2]
+//    },
 
    
-   {
-    nombre: 'Lilo',
-    nota: [1, 4.5]
-   }
+//    {
+//     nombre: 'Pola',
+//     nota: [5, 3.9]
+//    },
+
+   
+//    {
+//     nombre: 'Lilo',
+//     nota: [1, 4.5]
+//    }
 
 
 
 
-]
+// ]
 
-for (let i = 0; i < estudiantes.length; i++) {
-    // console.log('el estudiante es: ' + estudiantes[i].nombre)
-    // console.log('la nota  es: ' + estudiantes[i].nota)
+// for (let i = 0; i < estudiantes.length; i++) {
+//     // console.log('el estudiante es: ' + estudiantes[i].nombre)
+//     // console.log('la nota  es: ' + estudiantes[i].nota)
 
     
    
         
-      let promedio = (estudiantes[i].nota[0]+ estudiantes[i].nota[1])/2;
-// console.log(promedio)
+//       let promedio = (estudiantes[i].nota[0]+ estudiantes[i].nota[1])/2;
+// // console.log(promedio)
 
-if(promedio <= 2.9){
-        console.log('el estudiante ' + estudiantes[i].nombre + ' perdio con: ' + promedio )
-    }else{
-        console.log('el estudiante ' + estudiantes[i].nombre + ' paso con: ' + promedio )
-    }
-}
+// if(promedio <= 2.9){
+//         console.log('el estudiante ' + estudiantes[i].nombre + ' perdio con: ' + promedio )
+//     }else{
+//         console.log('el estudiante ' + estudiantes[i].nombre + ' paso con: ' + promedio )
+//     }
+// }
 
         
        
-    
+ let colores = ['rosado', 'verde', 'rojo', 'morado', 'blanco'];
+ 
+ console.log('el primer color es: ' + colores[0] +  ' el ultimo color es: ' + colores[colores.length - 1])
     
     
 

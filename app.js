@@ -394,4 +394,41 @@
 // console.log('el total de los productos es: ' + preciototal)
 
 
+
+   //ejercicio 6 
+let estudiantes = [
+
+   {
+    nombre: 'Juan',
+    nota: 3
+   },
+
+   
+   {
+    nombre: 'Pola',
+    nota: 3.9
+   },
+
+   
+   {
+    nombre: 'Lilo',
+    nota: 1
+   }
+
+
+
+
+]
+
+for (let i = 0; i < estudiantes.length; i++) {
+
+    if(estudiantes[i].nota >= 3){
+        console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' paso')
+        
+    }else{
+           console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' perdio')
+    }
+    
+}
+
     

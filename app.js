@@ -339,13 +339,31 @@
 
       //ejercicio 3 
 
-for (let i = 0; i < 21; i++) {
-    if(i % 2 === 0 ){
-        console.log('Numeros pares del 1 al 20: ' + i)
-    }
-}
+// for (let i = 0; i < 21; i++) {
+//     if(i % 2 === 0 ){
+//         console.log('Numeros pares del 1 al 20: ' + i)
+//     }
+// }
 
+      //ejercicio 4
+// let numeros = [14, 2, 8, 1930, 126, 542, 78999];
 
+// let numeromayor = 0;
+
+// for (let i = 0; i < numeros.length; i++) {
+    
+//         if(numeros[i] > numeromayor){
+
+//             numeromayor = numeros[i]
+
+           
+
+    
+// }
+
+// }
+
+//  console.log('el numero mayor es: ' + numeromayor)
 
 
 

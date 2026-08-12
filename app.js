@@ -333,9 +333,18 @@
 
     //Ejercicio 2
 
-let numeros = [1 , 12, 11, 4, 15];
+// let numeros = [1 , 12, 11, 4, 15];
 
-console.log('El array tiene: ' + numeros.length + ' elementos')
+// console.log('El array tiene: ' + numeros.length + ' elementos')
+
+      //ejercicio 3 
+
+for (let i = 0; i < 21; i++) {
+    if(i % 2 === 0 ){
+        console.log('Numeros pares del 1 al 20: ' + i)
+    }
+}
+
 
 
 

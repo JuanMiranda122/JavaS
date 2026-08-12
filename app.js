@@ -396,39 +396,75 @@
 
 
    //ejercicio 6 
-let estudiantes = [
+// let estudiantes = [
 
-   {
-    nombre: 'Juan',
-    nota: 3
-   },
-
-   
-   {
-    nombre: 'Pola',
-    nota: 3.9
-   },
+//    {
+//     nombre: 'Juan',
+//     nota: 3
+//    },
 
    
-   {
-    nombre: 'Lilo',
-    nota: 1
-   }
+//    {
+//     nombre: 'Pola',
+//     nota: 3.9
+//    },
+
+   
+//    {
+//     nombre: 'Lilo',
+//     nota: 1
+//    }
 
 
 
 
-]
+// ]
 
-for (let i = 0; i < estudiantes.length; i++) {
+// for (let i = 0; i < estudiantes.length; i++) {
 
-    if(estudiantes[i].nota >= 3){
-        console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' paso')
+//     if(estudiantes[i].nota >= 3){
+//         console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' paso')
         
-    }else{
-           console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' perdio')
-    }
+//     }else{
+//            console.log('el estudiante es: ' + estudiantes[i].nombre + ' la nota  es: ' + estudiantes[i].nota + ' perdio')
+//     }
     
-}
+// }
 
     
+ 
+          //ejercicio7
+   
+// const ejercicios = [
+
+// { nombre: "Sentadilla", peso: 85 },
+// { nombre: "Press banca", peso: 42 },
+// { nombre: "Peso muerto", peso: 55},
+// { nombre: "Dominadas lastradas", peso: 10 }
+
+
+// ];
+
+// let maximoPeso = 0;
+// let ejercicioMasPesado = "";
+
+
+// for (let i = 0; i < ejercicios.length; i++) {
+    
+//         if(ejercicios[i].peso > maximoPeso){
+
+//             maximoPeso = ejercicios[i].peso
+            
+//             ejercicioMasPesado = ejercicios[i].nombre
+//         }
+
+
+// }
+
+//  console.log('el ejercicio mas pesado es: ' + ejercicioMasPesado +  ' con '  + maximoPeso)
+
+
+
+
+
+

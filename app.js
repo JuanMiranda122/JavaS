@@ -325,17 +325,19 @@
 //     }
 // }
 
-        
+        //Ejercicio 1
        
- let colores = ['rosado', 'verde', 'rojo', 'morado', 'blanco'];
+//  let colores = ['rosado', 'verde', 'rojo', 'morado', 'blanco'];
  
- console.log('el primer color es: ' + colores[0] +  ' el ultimo color es: ' + colores[colores.length - 1])
+//  console.log('el primer color es: ' + colores[0] +  ' el ultimo color es: ' + colores[colores.length - 1])
+
+    //Ejercicio 2
+
+let numeros = [1 , 12, 11, 4, 15];
+
+console.log('El array tiene: ' + numeros.length + ' elementos')
+
+
+
+
     
-    
-
-
-
-
-
-
-

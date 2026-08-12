@@ -366,5 +366,32 @@
 //  console.log('el numero mayor es: ' + numeromayor)
 
 
+    // ejercicio 5
+
+// const  productos = [
+
+//     {nombre : "mouse", precio : 60000},
+//     {nombre : "teclado", precio : 100000},
+//     {nombre : "monitor", precio : 700000}
+
+
+// ];
+
+// let preciototal = 0;
+
+// for (let i= 0; i< productos.length; i++){
+
+//    if(productos[i].precio += preciototal){
+
+//      preciototal = productos[i].precio
+
+
+//    }
+   
+    
+// }
+
+// console.log('el total de los productos es: ' + preciototal)
+
 
     

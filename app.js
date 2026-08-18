@@ -467,4 +467,33 @@
 
 
 
+const boxeadores = [
+{ nombre: "Floyd Mayweather", victorias: 50, derrotas: 9, kos: 27 },
+{ nombre: "Mike Tyson", victorias: 50, derrotas: 6, kos: 44 },
+{ nombre: "Muhammad Ali", victorias: 56, derrotas: 5, kos: 37 },
+{ nombre: "Gennadiy Golovkin", victorias: 42, derrotas: 2, kos: 37 }
+];
+
+let mas_vic = 0;
+let mas_der = 0; 
+
+for (let i = 0; i < boxeadores.length; i++) {
+
+  let b = boxeadores[i]
+  let tot = b.victorias + b.derrotas
+  let porcentaje = (boxeadores[i].victorias / tot) * 100
+  let ko = (boxeadores[i].kos / tot ) * 100
+
+  
+console.log('Nombre: ' + b.nombre + ' el total de peleas es de: ' + tot + ' porcentaje de peleas ganadas: ' + porcentaje.toFixed(1) + ' su procentaje de Nkouts es de: ' + ko.toFixed(1))
+
+
+   if(b.victorias > mas_vic) mas_vic = b;
+   if(b.derrotas > mas_der) mas_der = b;
+    
+    
+}
+
+console.log('el boxeador con mas victoria es '+ mas_vic.nombre )
+console.log('el boxeador con mas derrotas es ' + mas_der)
 
